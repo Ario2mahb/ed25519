@@ -11,7 +11,7 @@
 
 
 int main() {
-    unsigned char public_key[32], private_key[64], seed[32], scalar[32];
+    unsigned char public_key[32], private_key[64], seed[32], scalar[87];
     unsigned char other_public_key[32], other_private_key[64];
     unsigned char shared_secret[32], other_shared_secret[32];
     unsigned char signature[64];
